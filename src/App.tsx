@@ -7,7 +7,7 @@ import Quote from "./componets/Quote";
 export default function App() {
 
     return (
-        <div className="@p-6 @flex @flex-col @gap-6 sm:@w-[500px] sm:@mx-auto">
+        <div className="@bg-black @text-neutral-300 @w-full @min-h-screen @p-6 @flex @flex-col @gap-6 sm:@w-[500px] sm:@mx-auto">
 
             <Card>
                 <Profile

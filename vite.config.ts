@@ -10,6 +10,9 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: "docs" // Github Pages
+    outDir: "docs", // Github Docs
+    cssMinify: true,
+    manifest: true,
+    sourcemap: true
   }
 })
