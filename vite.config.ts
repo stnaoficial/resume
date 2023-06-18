@@ -8,5 +8,8 @@ export default defineConfig({
     alias: {
       "@": "./node_modules"
     }
+  },
+  build: {
+    outDir: "docs" // Github Pages
   }
 })
